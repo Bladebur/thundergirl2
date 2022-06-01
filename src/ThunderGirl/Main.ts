@@ -8,7 +8,7 @@ declare module '../Adventure/Adventure' {
     }
 }
 
-let module: Module = {
+let main: Module = {
 	entities: {
 		costume: {
 			name: "[your] costume",
@@ -149,4 +149,4 @@ let module: Module = {
 	}
 };
 
-export default module;
+export default main;

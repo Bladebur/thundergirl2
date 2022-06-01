@@ -45,7 +45,7 @@ declare module '../Adventure/Adventure' {
 
 Object.assign(DefaultAdventureVariables, new NewVariables());
 
-var module : Module = {
+var guillotine : Module = {
     
 	startGame: function(this: Adventure) {
         this.player.location = 'guillotine-start';
@@ -983,4 +983,4 @@ function hint(this: Adventure) {
     }
 }
 
-export default module;
+export default guillotine;

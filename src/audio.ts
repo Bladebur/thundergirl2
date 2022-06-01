@@ -1,10 +1,10 @@
 import * as Pizzicato from 'pizzicato';
 
 let audioFiles = {
-    button: [ require("../audio/button.mp3") ],
-    geminiIntro: [ require("../audio/intro_gemini.wav") ],
-    music_gemini: [ require("../audio/music_gemini.mp3") ],
-    music_tension: [ require("../audio/music_tension.mp3") ],
+    button: [ require("url:../audio/button.mp3") ],
+    geminiIntro: [ require("url:../audio/intro_gemini.wav") ],
+    music_gemini: [ require("url:../audio/music_gemini.mp3") ],
+    music_tension: [ require("url:../audio/music_tension.mp3") ],
 };
 
 export type AudioFile = keyof typeof audioFiles;
