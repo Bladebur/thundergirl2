@@ -1,7 +1,7 @@
 import * as Pizzicato from 'pizzicato';
 
 let audioFiles = {
-    button: [ require("url:../audio/button.mp3") ],
+    button: [ require("url:../audio/Button.mp3") ],
     geminiIntro: [ require("url:../audio/intro_gemini.wav") ],
     music_gemini: [ require("url:../audio/music_gemini.mp3") ],
     music_tension: [ require("url:../audio/music_tension.mp3") ],
