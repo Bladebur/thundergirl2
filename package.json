@@ -2,9 +2,9 @@
   "name": "thunder-girl-2",
   "version": "1.1.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --no-source-maps --dist-dir docs"
   },
   "keywords": [],
   "author": "Bladebur",
